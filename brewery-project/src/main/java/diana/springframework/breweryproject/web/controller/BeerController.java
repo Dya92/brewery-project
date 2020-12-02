@@ -8,7 +8,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
-
+// inform the client that this version is deprecated because we have a second version
+@Deprecated
 //controller with response body
 @RestController
 @RequestMapping("/api/v1/beer")
